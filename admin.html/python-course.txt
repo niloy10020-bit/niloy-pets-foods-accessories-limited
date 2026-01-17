@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel - Niloy Pet’s, Food’s and Accessories Limited</title>
+</head>
+<body style="text-align:center;font-family:Arial;background:#f2f2f2;padding-top:50px;">
+
+<h2>🔐 Admin Login</h2>
+
+<input type="password" id="pass" placeholder="Enter Password">
+<br><br>
+<button onclick="login()" style="padding:10px 20px;cursor:pointer;">Login</button>
+
+<script>
+function login(){
+  if(document.getElementById("pass").value==="28122004"){
+    alert("Login Successful! Now edit script.js to update products.");
+  } else {
+    alert("Wrong Password!");
+  }
+}
+</script>
+
+</body>
+</html>

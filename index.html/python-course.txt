@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Niloy Pet's Food & Accessories</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+<h1>Niloy Pet's Food & Accessories</h1>
+<p>Quality Food & Accessories for Your Pets</p>
+<a class="btn" href="products.html">View Products</a>
+</header>
+
+
+<section class="about">
+<h2>About Us</h2>
+<p>We provide trusted pet food and accessories with best quality.</p>
+</section>
+
+
+<footer>
+<p>© 2026 Niloy Pet's Food & Accessories</p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+let products = [
+  {name: "Premium Dog Food", price: 1200},
+  {name: "Cat Food Pack", price: 900},
+  {name: "Pet Shampoo", price: 450},
+  {name: "Pet Toy Set", price: 350}
+];
+
+let container = document.getElementById("products");
+
+products.forEach(p => {
+  container.innerHTML += `
+  <div class="product">
+    <h3>${p.name}</h3>
+    <p>Price: ৳${p.price}</p>
+    <button onclick="order('${p.name}','${p.price}')">
+      Order on WhatsApp
+    </button>
+  </div>`;
+});
+
+function order(name, price) {
+  let msg = Hello, I want to order:\nProduct: ${name}\nPrice: ৳${price};
+  let phone = "8801986604170"; // তোমার WhatsApp number
+  window.open(https://wa.me/${phone}?text=${encodeURIComponent(msg)});
+}
